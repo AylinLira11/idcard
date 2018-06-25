@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <title>ID Card Generator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+
+    <h1>ID Card Creator</h1>
+
+    <div class="center">
+
+        <p class="inputs">
+            First Name: <input type="text" id="firstName" placeholder="First Name" >
+        </p>
+
+        <p class="inputs">
+                Last Name: <input type="text" id="lastName" placeholder="Last Name"
+                >
+        </p>
+
+        <p class="inputs">
+            Age: <input type="text" id="age"
+            placeholder="Age">
+        </p>
+
+        <p class="inputs">
+            Phone Number: <input type="text" id="phoneNumber" placeholder="Phone Number">
+        </p>
+
+        <p class="inputs">
+            Address: <input type="type" id="address" placeholder="Address">
+        </p>
+
+        <p class="button">
+            <button onclick="generateID()">Generate ID
+            </button>
+        </p>
+
+    </div>
+
+
+    <div id="idCard">
+
+        <div id="firstNameCard"></div>
+
+        <div id="lastNameCard"></div>
+
+        <div id="ageCard"></div>
+
+        <div id="phoneNumberCard"></div>
+
+        <div id="addressCard"></div>
+
+        <div> <img src="https://cdn4.iconfinder.com/data/icons/gray-user-management/512/rounded-512.png">
+        </div>
+    </div>
+
+
+    <script src="app.js"></script>
+</body>
+
+</html>
